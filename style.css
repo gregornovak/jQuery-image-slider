@@ -1,0 +1,43 @@
+body{
+    margin:0;
+    padding:0;
+}
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
+header{
+    padding: 15px;
+    margin: 0 auto;
+}
+.muted-text{
+    text-align: center;
+    color: grey;
+}
+
+#slider{
+    width: 720px;
+    height: 400px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+#slider .slides{
+    display: block;
+    width: 6000px;
+    height: 400px;
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+#slider .slide{
+    float: left;
+    list-style-type: none;
+    width: 720px;
+    height: 400px;
+}
+#slider .slide img{
+    width: 720px;
+    height: 400px;
+    border-radius: 5px;
+}
